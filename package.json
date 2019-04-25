@@ -1,0 +1,17 @@
+{
+  "name": "sasoria_origo_losning",
+  "version": "1.0.0",
+  "description": "AngulasJS client for a bikesharing API",
+  "author": "Sergio A. Soria",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080 --cors ."
+  },
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-resource": "^1.7.8",
+    "angular-route": "^1.7.8",
+    "bootstrap": "^4.3.1",
+    "http-server": "^0.11.1",
+    "jquery": "^3.3.1",
+  }
+}
