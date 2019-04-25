@@ -1,8 +1,3 @@
-@font-face { 
-  font-family: Grotesk; 
-  src: url('/fonts/UrbanGroteskTest.otf') format("otf"); 
-} 
-
 .body {
   margin: 0;
 }
