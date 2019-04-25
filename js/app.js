@@ -6,7 +6,6 @@ var app = angular.module("app", ['ngResource', 'ngRoute']);
   var stationStatusEndpoint = 'station_status.json'
 
   function createStations() {
-
     var infoStations = apiService.getStations(stationInfoEndpoint)
     var statusStations = apiService.getStations(stationStatusEndpoint)
     const stationBy = id => station => station.station_id === id;
